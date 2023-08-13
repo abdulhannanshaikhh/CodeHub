@@ -1,0 +1,12 @@
+//For Creating Database//
+-->create database db;
+
+//For Creating Table//
+-->create table login(username varchar(35),password varchar(35);
+
+//For Inserting Values//
+insert into login values("han@gmail.com","admin");
+insert into login values("spam@gmail.com","spam");
+insert into login values("samad@gmail.com","sam12");
+insert into login values("john@gmail.com","jacob");
+insert into login values("nobel@gmail.com","nobeljd");

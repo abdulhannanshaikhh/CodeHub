@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cod€Hub/watch</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+       <img src="media/logoo.png" alt="logo" class="logoimg">
+      <a href="home.html" class="logo">Cod€Hub</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <a href="index.php"><div id="user-btn" class="fas fa-user"></div></a>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="https://static.vecteezy.com/system/resources/previews/009/398/577/original/man-avatar-clipart-illustration-free-png.png" class="image" alt="">
+      <h3 class="name">Hannan Shaikh</h3>
+      <p class="role">Student</p>
+   <h1>Profile</h1>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-star"></i><span>Reviews</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Services</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+   </nav>
+
+</div>
+<section class="watch-video">
+<h1 class="heading">Python For Beginners<h1>
+   <div class="video-container">
+      <div class="video"><center>
+<iframe width="800" height="400" src="https://www.youtube.com/embed/EyEqWFvLDT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe></center>
+      </div>
+      <h3 class="title">Python for Beginners</h3>
+      <div class="info">
+         <p class="date"><i class="fas fa-calendar"></i><span>21-10-2021</span></p>
+         <p class="date"><i class="fas fa-heart"></i><span>5000 likes</span></p>
+      </div>
+</section>
+<section class="comments">
+
+   <h1 class="heading">Add comments</h1>
+
+   <form action="" class="add-comment">
+      <h3>add comments</h3>
+      <textarea name="comment_box" placeholder="enter your comment" required maxlength="1000" cols="30" rows="10"></textarea>
+      <input type="submit" value="add comment" class="inline-btn" name="add_comment">
+   </form>
+</section>
+<footer class="footer">
+
+   &copy; copyright @ 2022 by <span>Cod€Hub</span> | all rights reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
